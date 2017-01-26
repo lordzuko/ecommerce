@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"Pro",
+				"ProductListView"
+			],
+			[
+				"Pr",
+				"ProductDetailView"
+			],
+			[
 				"ur",
 				"url"
 			],
@@ -19,28 +27,35 @@
 			"file": "src/products/views.py",
 			"settings":
 			{
-				"buffer_size": 424,
+				"buffer_size": 760,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "README.md",
+			"file": "src/products/urls.py",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 526,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "from django.conf import settings\nfrom django.conf.urls import include, url\nfrom django.conf.urls.static import static\nfrom django.contrib import admin\n\nfrom .views import ProductDetailView\nurlpatterns = [\n    # Examples:\n    #url(r'^$', 'newsletter.views.home', name='home'),\n    url(r'^cbv/(?P<pk>\\d+)',ProductDetailView.as_view(),name='product_detail'),\n    #url(r'^(?P<id>\\d+)','products.views.product_detail_view_func',name='product_detail_func'),\n]\n",
-			"file": "src/products/urls.py",
-			"file_size": 465,
-			"file_write_time": 131299109306517260,
+			"file": "src/products/templates/products/product_list.html",
 			"settings":
 			{
-				"buffer_size": 454,
+				"buffer_size": 190,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/products/templates/products/product_detail.html",
+			"settings":
+			{
+				"buffer_size": 83,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -79,12 +94,15 @@
 	[
 		"/C/Users/himan/ecommerce/src",
 		"/C/Users/himan/ecommerce/src/products",
+		"/C/Users/himan/ecommerce/src/products/templates",
+		"/C/Users/himan/ecommerce/src/products/templates/products",
 		"/C/Users/himan/ecommerce/src/static_in_pro"
 	],
 	"file_history":
 	[
-		"/C/Users/himan/ecommerce/.gitattributes",
 		"/C/Users/himan/ecommerce/README.md",
+		"/C/Users/himan/ecommerce/.gitignore",
+		"/C/Users/himan/ecommerce/.gitattributes",
 		"/C/Users/himan/ecommerce/src/.gitignore",
 		"/C/Users/himan/ecommerce/src/ecommerce/settings/local.py",
 		"/C/Users/himan/ecommerce/src/db.sqlite3",
@@ -149,7 +167,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -158,71 +176,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 424,
+						"buffer_size": 760,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								424,
-								424
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "README.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/products/urls.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 454,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								361,
-								361
+								678,
+								678
 							]
 						],
 						"settings":
@@ -234,6 +196,92 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/products/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 526,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								204,
+								204
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/products/templates/products/product_list.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 190,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								134,
+								134
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/products/templates/products/product_detail.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 83,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								75,
+								75
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
