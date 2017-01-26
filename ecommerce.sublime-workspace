@@ -1,0 +1,324 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ur",
+				"url"
+			],
+			[
+				"re",
+				"render"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/products/views.py",
+			"settings":
+			{
+				"buffer_size": 424,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 0,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "from django.conf import settings\nfrom django.conf.urls import include, url\nfrom django.conf.urls.static import static\nfrom django.contrib import admin\n\nfrom .views import ProductDetailView\nurlpatterns = [\n    # Examples:\n    #url(r'^$', 'newsletter.views.home', name='home'),\n    url(r'^cbv/(?P<pk>\\d+)',ProductDetailView.as_view(),name='product_detail'),\n    #url(r'^(?P<id>\\d+)','products.views.product_detail_view_func',name='product_detail_func'),\n]\n",
+			"file": "src/products/urls.py",
+			"file_size": 465,
+			"file_write_time": 131299109306517260,
+			"settings":
+			{
+				"buffer_size": 454,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/himan/ecommerce/src",
+		"/C/Users/himan/ecommerce/src/products",
+		"/C/Users/himan/ecommerce/src/static_in_pro"
+	],
+	"file_history":
+	[
+		"/C/Users/himan/ecommerce/.gitattributes",
+		"/C/Users/himan/ecommerce/README.md",
+		"/C/Users/himan/ecommerce/src/.gitignore",
+		"/C/Users/himan/ecommerce/src/ecommerce/settings/local.py",
+		"/C/Users/himan/ecommerce/src/db.sqlite3",
+		"/C/Users/himan/ecommerce/src/products/views.py",
+		"/C/Users/himan/ecommerce/src/products/urls.py",
+		"/C/Users/himan/ecommerce/src/ecommerce/urls.py",
+		"/C/Users/himan/ecommerce/src/newsletter/views.py",
+		"/C/Users/himan/ecommerce/src/products/models.py",
+		"/C/Users/himan/ecommerce/src/products/admin.py",
+		"/C/Users/himan/ecommerce/src/todo.txt",
+		"/C/Users/himan/ecommerce/src/manage.py",
+		"/C/Users/himan/ecommerce/src/ecommerce/old_settings.py",
+		"/C/Users/himan/ecommerce/src/ecommerce/wsgi.py",
+		"/C/Users/himan/ecommerce/src/trydjango18/wsgi.py",
+		"/C/Users/himan/ecommerce/src/trydjango18/urls.py",
+		"/C/Users/himan/ecommerce/src/trydjango18/settings/production.py",
+		"/C/Users/himan/ecommerce/src/trydjango18/settings/local.py",
+		"/C/Users/himan/ecommerce/src/trydjango18/settings/base.py",
+		"/C/Users/himan/ecommerce/src/trydjango18/old_settings.py",
+		"/C/Users/himan/ecommerce/src/newsletter/__init__.py",
+		"/C/Users/himan/ecommerce/src/ecommerce/settings/base.py",
+		"/C/Users/himan/ecommerce/src/ecommerce/settings/production.py",
+		"/C/Users/himan/ecommerce/src/ecommerce/views.py"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 138.0,
+		"where_history":
+		[
+			"C:\\Users\\himan\\ecommerce\\src"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"trydjango18",
+			"ecommerce",
+			"trydjango18"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"ecommerce",
+			"trydjango18",
+			"ecommerce"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/products/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 424,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								424,
+								424
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/products/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 454,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								361,
+								361
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ecommerce.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 375.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
